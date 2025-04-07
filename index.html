@@ -96,12 +96,21 @@
           <img alt='Data shows that LeBron James is faster and superior than other players. Metrics such as PIE can be more insightful than Avg speed when assessing the real value of a player.' 
                src='https://public.tableau.com/static/images/Le/LeBronstats/LeBronstats/1_rss.png' 
                style='border: none' />
+   <div class="section" id="tableau">
+  <h2>LeBron James Stats Visualization</h2>
+
+  <div class="tableauWrapper">
+    <div class='tableauPlaceholder' id='vizLebron'>
+      <noscript>
+        <a href='#'>
+          <img alt='Data shows that LeBron James is faster and superior than other players. Metrics such as PIE can be more insightful than Avg speed when assessing the real value of a player.'
+               src='https://public.tableau.com/static/images/Le/LeBronstats/LeBronstats/1_rss.png'
+               style='border: none;' />
         </a>
       </noscript>
-      <object class='tableauViz' style='display:none;'>
+      <object class='tableauViz'>
         <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
         <param name='embed_code_version' value='3' />
-        <param name='site_root' value='' />
         <param name='name' value='LeBronstats&#47;LeBronstats' />
         <param name='tabs' value='no' />
         <param name='toolbar' value='yes' />
@@ -114,25 +123,20 @@
         <param name='language' value='en-US' />
       </object>
     </div>
-  
-    <script type='text/javascript'>
-      var divElement = document.getElementById('viz1744058818750');
-      var vizElement = divElement.getElementsByTagName('object')[0];
-      if (divElement.offsetWidth > 800) {
-        vizElement.style.width = '950px';
-        vizElement.style.height = '827px';
-      } else if (divElement.offsetWidth > 500) {
-        vizElement.style.width = '950px';
-        vizElement.style.height = '827px';
-      } else {
-        vizElement.style.width = '100%';
-        vizElement.style.height = '777px';
-      }
-      var scriptElement = document.createElement('script');
-      scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
-      vizElement.parentNode.insertBefore(scriptElement, vizElement);
-    </script>
   </div>
+
+  <script type='text/javascript'>
+    var divElement = document.getElementById('vizLebron');
+    var vizElement = divElement.getElementsByTagName('object')[0];
+    vizElement.style.width = '100%';
+    vizElement.style.height = '100%';
+
+    var scriptElement = document.createElement('script');
+    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+    vizElement.parentNode.insertBefore(scriptElement, vizElement);
+  </script>
+</div>
+
   
 <p><a href="lebron-quiz.html">🔗 Try the LeBron Quiz App!</a></p>
 
