@@ -127,6 +127,12 @@ body {
     0% { text-shadow: 0 0 5px #ffd700, 0 0 10px #ffcc00; }
     100% { text-shadow: 0 0 15px #fff700, 0 0 25px #ffaa00; }
   }
-  
+  .tableauWrapper {
+  width: 100%;
+  max-width: 1000px;
+  height: 65vh; 
+  margin: 0 auto;
+  position: relative;
+}
 
   
